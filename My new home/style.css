@@ -1,0 +1,176 @@
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    color: white;
+    margin: 0px;
+}
+#hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 720;
+    height: 500px;
+
+    background-size: contain;
+    background-image: url(abeokuta.jpg);
+
+}
+.hero-title{
+    margin: 30px;
+    background: #1D3557;
+    padding: 4px 40px;
+    border-radius: 14px;
+    color: white;
+}
+.hero-subtitle{
+    margin: 16px 0 40px 0;
+    background: #457B9D;
+    padding: 4px 12px;
+    border-radius: 10px;
+    color: white;
+}
+
+#activities{
+   /*middle section pictures of activities with descriptions
+   need this so that a background color shows beyond the 
+   box constraining the activities*/
+    background: var(--medium-champagne);
+}
+.activities-box{
+    /*this box constrains the activity columns to match
+    the width of the hero section*/
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+/*keep same width as banner picture*/
+    width: 900px;
+    margin:auto;
+    padding: 60px 0px;
+    background: var(--medium-champagne);
+    color: var(--oxford-blue);
+}
+.activity{
+    /*each activity picture and description section*/
+    width: 200px;
+}
+.activity-img{
+    /*individual activity image designed to be in a round circle*/
+    border-radius: 50%;
+    width: 150px;
+}
+
+
+#olumo {
+    color: #1D3557; 
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+#olumo2{
+    color: #1D3557;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+#top{
+    color: #1D3557; 
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+#ibd{
+    color: #1D3557; 
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+#ibd2{
+    color: #1D3557;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+#obj{
+    color: #1D3557; 
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+#obj2{
+    color: #1D3557;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+#yourguide{
+    /*displays one or more 'card's introducing people*/
+    padding: 60px 0px;
+    background-color: whitesmoke;
+}
+.guide-card{
+    /* creates the framing 'card' on which the guide contents sits*/
+    width: 425px;
+    margin: 30px  auto;
+    padding: 15px;
+
+    display: flex;/*allows the img and text to sit side by side*/
+    justify-content: space-around;
+
+    background: var(--dark-slate-blue);
+    border-bottom: 10px solid var(--upsdell-red);
+    border-radius: 6px;
+}
+.guide-img{
+    /*the guide picture*/
+    width: 180px;
+    height: min-content;
+    border-radius: 6px;
+    margin: 25px 15px 25px 0px;
+
+}
+.guideinfo{
+    /*the guide's info and descriptive text*/
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+
+
+
+#before-after-img{
+    background: url("images/before-castle.jpg");
+    height: 745px;
+    margin: 0 auto; /*centers the img with the larger wrapper */
+    padding-bottom: 30px;
+    width: 555px;
+    border: 3px dashed var(--dark-slate-blue);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#before-after-img:hover{
+    background: url("images/after-castle.jpg");
+    height: 745px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#Guidetext1{
+    color: #1D3557;
+}
+#Guidetext2{
+    color:  #1D3557;
+}
+#guidename{
+    color: #1D3557;
+}
